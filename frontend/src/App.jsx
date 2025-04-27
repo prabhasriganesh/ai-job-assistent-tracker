@@ -15,8 +15,11 @@ import { UserContextProvider } from "./context/UserContext";
 import FeaturesGrid from "./pages/Featurespage";
 import Profile from "./pages/Profile";
 import SecureDocumentVault from "./pages/SecureDocumentVault";
+<<<<<<< HEAD
 import TechStack from "./pages/Techstack";
 import VideoExplanation from "./pages/VideoExplanation";
+=======
+>>>>>>> 96384c33b7713421874ca1525f325692f16b466f
 
 // Axios defaults
 axios.defaults.baseURL = "https://ai-job-application-tracker-project.vercel.app/";
@@ -68,8 +71,11 @@ const AppContent = () => {
               <>
                 <LandingPage />
                 <FeaturesGrid />
+<<<<<<< HEAD
                 <TechStack/>
                 <VideoExplanation/>
+=======
+>>>>>>> 96384c33b7713421874ca1525f325692f16b466f
               </>
             }
           />

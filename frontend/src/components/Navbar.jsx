@@ -14,6 +14,7 @@ const Navbar = () => {
   const navLinks = [
     { id: "home", label: "Home", isScroll: true, target: "home", path: "/" },
     { id: "features", label: "Features", isScroll: true, target: "features" },
+    { id: "tech-stack", label: "Tech Stack", isScroll: true, target: "tech-stack" },
     { id: "demo", label: "Explanation Video", isScroll: true, target: "demo" },
   ];
 
